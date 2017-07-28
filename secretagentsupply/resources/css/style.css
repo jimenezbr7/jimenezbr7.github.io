@@ -1,0 +1,291 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+#logo{
+  height: 1.5rem;
+  padding-left: .5rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+}
+
+header{
+  background-color: black;
+  display: flex;
+  color: white;
+  width: 100%;
+  justify-content: center;
+}
+
+#secret {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+.container{
+  display: flex;
+  width: 960px;
+  height: 2.5rem;
+}
+
+.banner{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+
+}
+
+#line1{
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+#line2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+.text{
+  width: 960px;
+  display: flex-block;
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  height: 9rem;
+}
+
+.container2{
+  width: 960px;
+  display: flex;
+}
+
+h1{
+  padding-bottom: .25rem;
+}
+
+nav span{
+  display: inline-block;
+}
+
+.navigation{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: firebrick;
+  color: white;
+}
+
+#list{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem 0rem;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#pictures{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture{
+  height: 15rem;
+  width: 30%;
+  border: 4px solid black;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.words{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  height: 30rem;
+}
+
+#glasses{
+  height: auto;
+  width: 9rem;
+  padding-bottom: 7rem;
+}
+
+.location{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.bottom{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right{
+  width: 35%;
+}
+
+h3{
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: black;
+}
+
+h4{
+  margin-top: .25rem;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
+
+.foot{
+  width: 960px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#tablet{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+    #glass{
+      display:none;
+    }
+    #pictures{
+      width: 960px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .picture{
+      height: 15rem;
+      width: 47%;
+      border: 4px solid black;
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #list{
+      display: none;
+    }
+    #tablet{
+      width: 960px;
+      display: flex;
+      justify-content: center;
+      padding: .75rem 0rem;
+    }
+    .navigation{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      background-color: firebrick;
+      color: white;
+    }
+  }
+
+@media only screen and (max-width: 470px){
+  .foot{
+    justify-content: center;
+  }
+  #cellular{
+    display:none;
+  }
+  #pictures{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .picture{
+    height: 15rem;
+    width: 90%;
+    border: 4px solid black;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner{
+    height: 17rem;
+  }
+
+  #line1{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 0.77rem;
+    padding-top: 1rem;
+  }
+  #line2{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .text{
+    padding-left: 2rem;
+    height: 5rem;
+  }
+  .location{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .right{
+    margin-top: 0.5rem;
+  }
+  .bottom{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left,
+  .right {
+    width: 90%;
+  }
+}
